@@ -4,7 +4,7 @@ import Faq from "../faq";
 export default function EntendaMelhor() {
     return (
         <>
-            <div className="md:mt-10 mt-32 mb-20">
+            <div className="md:mt-10 mt-32 md:mb-20 mb-10">
                 <div className="container">
 
                     <div className="md:flex p-4 md:p-0 ">

@@ -3,15 +3,27 @@
     display: flex;
     justify-content: end;
 }
+
 .como-participar-title {
     font-size: 24px;
     font-weight: 800;
     line-height: 29px;
     color: rgba(70, 94, 255, 1);
 }
+
 .circulo-border {
-    border-bottom: 2px solid #83ffea;
+    border-left: 2px solid #83ffea;
+    height: 70%;
 }
+
+@screen md {
+    .circulo-border {
+        border-bottom: 2px solid #83ffea;
+        border-left: 0;
+        height: 0;
+    }
+}
+
 .como-participar-button {
     background-color: rgba(250, 250, 48, 1);
     padding: 0.4rem;
@@ -24,9 +36,18 @@
     color: rgba(70, 94, 255, 1);
     width: 100%;
 }
+
 .title-main-amarelo {
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 800;
-    line-height: 40px;
+    line-height: 28px;
     color: rgba(59, 59, 59, 1);
+}
+
+@screen md {
+    .title-main-amarelo {
+        font-size: 36px;
+        line-height: 40px;
+        
+    }
 }

@@ -18,17 +18,28 @@ export default function Form() {
                                 <div className="md:flex justify-between ">
                                     <div className="md:mr-7 mb-5 md:mb-0">
                                         <div className="mb-5">
-                                            <h1 className="title-form">Nome</h1>
-                                            <input className="h-8 w-full" type="text" name="name" id="" />
+                                            <h1 className="title-form mb-1">Nome</h1>
+                                            <input className="h-10 w-full" type="text" name="name" id="" />
+                                        </div>
+                                        <div className="mb-5">
+                                            <h1 className="title-form mb-1">Email</h1>
+                                            <input className="h-10 w-full" type="email" name="email" id="" />
                                         </div>
                                         <div>
-                                            <h1 className="title-form">Email</h1>
-                                            <input className="h-8 w-full" type="email" name="email" id="" />
+                                            <h1 className="title-form mb-1">Assunto</h1>
+                                            <select className="h-10 w-full" name="" id="">
+                                                <option value=""></option>
+                                                <option>Option 1</option>
+                                                <option>Option 2</option>
+                                                <option>Option 3</option>
+
+                                            </select>
+
                                         </div>
                                     </div>
                                     <div>
-                                        <h1 className="title-form">A sua dúvida</h1>
-                                        <textarea className="mb-5 w-full" name="" id="" cols={45} rows={10}></textarea>
+                                        <h1 className="title-form mb-1">A sua dúvida</h1>
+                                        <textarea className="mb-5 w-full" name="" id="" cols={45} rows={6}></textarea>
                                         <button className="button-form" type="submit">enviar</button>
                                     </div>
                                 </div>

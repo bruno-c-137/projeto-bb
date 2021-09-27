@@ -8,12 +8,57 @@
     font-weight: 800;
     color: rgba(255, 255, 255, 1);
 }
+
 .content-header {
     background-color: rgba(252, 252, 48, 1);
 }
+
 .header-link {
     font-size: 17px;
     line-height: 20px;
     font-weight: 400;
     color: rgba(70, 94, 255, 1);
 }
+
+.hamburguer {
+    width: 40px;
+    border-top: 4px solid;
+    display: block;
+    color: rgba(19, 81, 180, 1);
+}
+
+.hamburguer::after,
+.hamburguer::before {
+    border: 1.9px solid;
+    width: 40px;
+    background: currentColor;
+    content: "";
+    display: block;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+}
+
+.ativado {
+    .hamburguer {
+        border-top-color: transparent;
+    }
+
+
+}
+
+.ativado {
+    .hamburguer::before {
+        transform: rotate(135deg);
+    }
+}
+
+.ativado {
+    .hamburguer::after {
+        transform: rotate(-135deg);
+        top: -8px;
+        margin-top: 5px;
+    }
+}
+
+

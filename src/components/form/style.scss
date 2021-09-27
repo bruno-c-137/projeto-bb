@@ -32,3 +32,21 @@
     font-weight: 400;
     text-align: center;
 }
+select {
+   
+    background-image: url(../../assets/images/icone-button.png), -webkit-linear-gradient( top, #FFFFFF, #FFFFFF); /* For Chrome and Safari */
+    
+    background-position: center right;
+    background-repeat: no-repeat;
+    appearance: none;
+    border: 1px solid rgba(205, 205, 205, 1);
+
+}
+input{
+    border: 1px solid rgba(205, 205, 205, 1);
+    border-radius: 4px
+}
+textarea{
+    border: 1px solid rgba(205, 205, 205, 1);
+    border-radius: 4px
+}

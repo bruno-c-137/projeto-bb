@@ -1,12 +1,22 @@
 .entenda-melhor-title {
-    font-size: 36px;
-    line-height: 38px;
+    font-size: 26px;
+    line-height: 28px;
     font-weight: 800;
     color: rgba(59, 59, 59, 1);
 }
+
+@screen md {
+    .entenda-melhor-title {
+        font-size: 35px;
+        line-height: 38px;
+
+    }
+}
+
 .content-faq {
     border-bottom: 1px solid rgba(230, 230, 230, 1);
 }
+
 .entenda-melhor-button {
     background-color: #fafa30;
     padding: 0.4rem;
