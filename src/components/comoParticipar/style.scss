@@ -48,6 +48,24 @@
     .title-main-amarelo {
         font-size: 36px;
         line-height: 40px;
-        
+
     }
+}
+
+.underline-azul-confira {
+
+    border-bottom: 9px solid #83FFEA;
+    display: inline-block;
+    line-height: .85;
+    padding-right: 7px;
+    padding-left: 7px;
+    height: 25px;
+
+    @screen md {
+        border-bottom: 15px solid #83FFEA;
+        height: 35px;
+    }
+
+
+
 }

@@ -12,7 +12,7 @@ export default function Form() {
                             <img src={ImgForm} alt="" />
                         </div>
                         <div>
-                            <h1 className="sub-form mb-10">Esclareça as suas dúvidas</h1>
+                            <h1 className="sub-form mb-10">Esclareça as <span className="underline-amarelo-form"> suas dúvidas</span></h1>
 
                             <form>
                                 <div className="md:flex justify-between ">

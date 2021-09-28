@@ -29,3 +29,17 @@
     color: #465eff;
     width: 100%;
 }
+
+.underline-amarelo {
+    border-bottom: 9px solid #FCFC30;
+    display: inline-block;
+    line-height: .85;
+    padding-right: 3px;
+    padding-left: 3px;
+    height: 25px;
+
+    @screen md {
+        border-bottom: 13px solid #FCFC30;
+        height: 34px;
+    }
+}

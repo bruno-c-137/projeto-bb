@@ -15,7 +15,7 @@ export default function WeekDaSorte() {
                 <div className="relative flex justify-between">
                     <div className=" flex-1 md:mt-44 p-4 md:p-0">
 
-                        <h1 className="w-4/5 info-title">A sua empresa só tem a ganhar!</h1>
+                        <h1 className="w-4/5 info-title">A sua <span className="underline-azul"> empresa</span> só tem a ganhar!</h1>
                         <div className="md:flex mt-20  ">
                             <div className="md:w-1/3 md:mr-16 mb-7 md:mb-0">
                                 <IconCasa />

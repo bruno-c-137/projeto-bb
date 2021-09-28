@@ -1,6 +1,6 @@
 import "./style.scss";
 import Banner1 from "../../assets/images/Banner-destaque1.png"
-import ImgTriangulo from "../../assets/images/img-triangulo.png"
+import ImgTriangulo from "../../assets/images/img-triangulo-v2.png"
 import Slice from "../../assets/images/slice.png"
 import ImgMpe from "../../assets/images/mpe-da-sorte.png"
 export default function BannerDestaque3() {
@@ -20,7 +20,7 @@ export default function BannerDestaque3() {
                                 <p className="__sub-title"> Ganhe mais visibilidade
                                     e ainda concorra a</p>
                                 <p className="__text mb-3">quatro prêmios</p>
-                                <div><span className="__text-con"> de </span><span className="__text-content"> R$  50 mil</span></div>
+                                <div><span className="__text-con"> de  R$ </span><span className="__text-content underline-azul">50 mil</span></div>
                                 <p className="__sub-title">para alavancar o seu negócio.</p>
                                 <a className="entenda-melhor-button mt-5" href="#">Confira o regulamento</a>
                             </div>

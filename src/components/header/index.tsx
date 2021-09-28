@@ -29,7 +29,7 @@ export default function Header() {
                                 <a className="header-link self-center" href="#">Ganhadores</a>
                                 <a className="header-link self-center" href="#">Dúvidas</a>
                                 <a className="header-link self-center" href="#">Fale com a gente</a>
-                                <a className="pr-5 pl-5  button-header flex items-center" href="#">Cadastre a sua empresa</a>
+                                <a className="pr-5 pl-5  button-header flex items-center" href="http://www.mpeweek2021.com.br">Cadastre a sua empresa</a>
                             </div>
 
                             <div className={`md:hidden  ${openBot ? " mt-5" : "hidden"}`} >
